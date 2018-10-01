@@ -4,7 +4,6 @@ def main():
     ans = divide_sum(bat)
     print('this is the output of divide_sum():', format(ans))
 
-
 def add_three(v1, v2, v3):
     """do something
     """
