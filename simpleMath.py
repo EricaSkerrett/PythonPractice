@@ -1,31 +1,29 @@
 def main():
-    add_two(3,5)
-    subtract_two(2,1)
-    multiply_two(5,5)
+    bat = add_three(3, 5, 4)
 
-def add_two(v1,v2):
-    """"do something
+    ans = divide_sum(bat)
+    print('this is the output of divide_sum():', format(ans))
+
+
+def add_three(v1, v2, v3):
+    """do something
     """
-    p = v1 +v2
+    p = v1 + v2 + v3
     print(p)
+    return(p)
 
-def subtract_two(v1,v2):
+
+def divide_sum(v1):
     """doc strings
     """
-    p = v1 - v2
+    p = v1 / 3
     print(p)
-
-
-def multiply_two(v1,v2):
+    return(p)
     """multiply 2 numbers
     :param v1: number one
     :param v2: number two
     :returns: product number
     """
-    p = v1 * v2
-    print(p)
-
-    return(p)
 
 
 if __name__ == "__main__":
