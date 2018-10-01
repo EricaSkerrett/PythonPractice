@@ -4,7 +4,7 @@ def test_add_three():
     v2 = 2
     v3 = 3
     p = v1 + v2 + v3
-    assert p == 6
+    assert p == 5
 
 
 def test_divide_sum():
